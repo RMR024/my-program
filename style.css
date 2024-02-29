@@ -5,8 +5,11 @@ h1 {
 
 table {
 
-    border-color: rgb(221, 17, 17);
-
-
-
+    border-color: rgb(221, 17, 17)
+}
+h2{
+    color: red;
+    border-radius: 3cm;
+    background-color: burlywood;
+    font-size: 500%;
 }
