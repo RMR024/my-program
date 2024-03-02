@@ -1,15 +1,54 @@
-h1 {
-    background-color: aqua;
-    color: brown;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-table {
-
-    border-color: rgb(221, 17, 17)
+nav {
+    background-color: #2fe2e2;
+    color: white;
+    padding: 30px;
 }
-h2{
-    color: red;
-    border-radius: 3cm;
-    background-color: burlywood;
-    font-size: 500%;
+
+input,
+li,
+h1,
+ul {
+    display: inline;
+
+}
+
+ul {
+    margin-left: 60%;
+
+}
+#p{
+    border:0;
+    background-color: #2fe2e2;
+    color: white;
+    
+}
+#p:hover{
+    color: blue;
+}
+
+li:hover {
+    color: blue;
+    cursor: pointer;
+}
+input {
+    width: 60%;
+    padding: 10px;
+
+}
+.searchbar{
+padding: 20px;
+text-align: center;
+}
+a{
+ color: white;
+ text-decoration: none;
+
+}
+a:hover{
+    color: blue;
 }
