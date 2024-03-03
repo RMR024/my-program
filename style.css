@@ -21,13 +21,15 @@ ul {
     margin-left: 60%;
 
 }
-#p{
-    border:0;
+
+#p {
+    border: 0;
     background-color: #2fe2e2;
     color: white;
-    
+
 }
-#p:hover{
+
+#p:hover {
     color: blue;
 }
 
@@ -35,20 +37,61 @@ li:hover {
     color: blue;
     cursor: pointer;
 }
+
 input {
     width: 60%;
     padding: 10px;
 
 }
-.searchbar{
-padding: 20px;
-text-align: center;
+
+.searchbar {
+    padding: 20px;
+    text-align: center;
 }
-a{
- color: white;
- text-decoration: none;
+
+a {
+    color: white;
+    text-decoration: none;
 
 }
-a:hover{
+
+a:hover {
     color: blue;
+}
+
+.products{
+    text-align: center;
+}
+
+
+
+#elect,
+#plum {
+    display: inline-block;
+    border-color: rgb(20, 223, 223);
+    background-color: turquoise;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-left: 20pxdiv;
+}
+
+h2:hover{
+ background-color: blue;
+ cursor:pointer;
+}
+center{
+    background-color: aqua;
+    margin-top: 10px;
+    padding: 30;
+    padding-bottom: 20px;
+}
+#l{
+    background-color:rgb(39, 204, 149);
+    color: black;
+    padding:10px ;
+}
+#l:hover{
+    color: white;
+    background-color: blue;
 }
